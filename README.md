@@ -2,19 +2,72 @@
 
 ![][views] ![][stars] ![][forks] ![][issues] ![][license] ![][repo-size]
 
+![](./assets/images/logo.png)
+
 # Great Quotes
 
-<!-- ### **[<kbd> <br> &nbsp; **Click to Visit WebPage** &nbsp; <br> </kbd>][site]** -->
+### **[<kbd> <br> &nbsp; **Click to Visit WebPage** &nbsp; <br> </kbd>][site]**
 
-<!-- ## Directory Structure
+## Directory Structure
 
 </div>
 
 ```
-
+src
+|
+|-- components
+|   |-- UI
+|   |   |-- Card.jsx
+|   |   |-- Card.module.css
+|   |   |-- LoadingSpinner.jsx
+|   |   `-- LoadingSpinner.module.css
+|   |
+|   |-- comments
+|   |   |-- CommentItem.jsx
+|   |   |-- CommentItem.module.css
+|   |   |-- Comments.jsx
+|   |   |-- Comments.module.css
+|   |   |-- CommentsList.jsx
+|   |   |-- CommentsList.module.css
+|   |   |-- NewCommentForm.jsx
+|   |   `-- NewCommentForm.module.css
+|   |
+|   |-- layout
+|   |   |-- Layout.jsx
+|   |   |-- Layout.module.css
+|   |   |-- MainNavigation.jsx
+|   |   `-- MainNavigation.module.css
+|   |
+|   `-- quotes
+|       |-- HighlightedQuote.jsx
+|       |-- HighlightedQuote.module.css
+|       |-- NoQuotesFound.jsx
+|       |-- NoQuotesFound.module.css
+|       |-- QuoteForm.jsx
+|       |-- QuoteForm.module.css
+|       |-- QuoteItem.jsx
+|       |-- QuoteItem.module.css
+|       |-- QuoteList.jsx
+|       `-- QuoteList.module.css
+|
+|-- hooks
+|   `-- use-http.js
+|
+|-- lib
+|   `-- api.js
+|
+|-- pages
+|   |-- AllQuotes.jsx
+|   |-- NewQuote.jsx
+|   |-- NotFound.jsx
+|   `-- QuoteDetail.jsx
+|    
+|-- App.jsx
+|-- index.css
+`-- index.jsx
 ```
 
-<div align = center> -->
+<div align = center>
 
 ## Building from Source
 
