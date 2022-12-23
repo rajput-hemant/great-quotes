@@ -2,8 +2,8 @@ import { useRef, useState } from "react";
 import { Prompt } from "react-router-dom";
 
 import Card from "../UI/Card";
+import styles from "./QuoteForm.module.css";
 import LoadingSpinner from "../UI/LoadingSpinner";
-import classes from "./QuoteForm.module.css";
 
 const QuoteForm = (props) => {
 	const [isEntering, setIsEntering] = useState(false);
@@ -36,22 +36,26 @@ const QuoteForm = (props) => {
 				}
 			/>
 			<Card>
-				<form className={classes.form} onSubmit={submitFormHandler}>
+				<form
+					className={styles.form}
+					onFocus={formFocusHandler}
+					onSubmit={submitFormHandler}
+				>
 					{props.isLoading && (
-						<div className={classes.loading}>
+						<div className={styles.loading}>
 							<LoadingSpinner />
 						</div>
 					)}
 
-					<div className={classes.control}>
+					<div className={styles.control}>
 						<label htmlFor="author">Author</label>
 						<input type="text" id="author" ref={authorInputRef} />
 					</div>
-					<div className={classes.control}>
+					<div className={styles.control}>
 						<label htmlFor="text">Text</label>
 						<textarea id="text" rows="5" ref={textInputRef}></textarea>
 					</div>
-					<div className={classes.actions}>
+					<div className={styles.actions}>
 						<button onClick={finishEnteringHandler} className="btn">
 							Add Quote
 						</button>

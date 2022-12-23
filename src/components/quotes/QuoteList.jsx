@@ -1,4 +1,5 @@
 import { useHistory, useLocation } from "react-router-dom";
+
 import QuoteItem from "./QuoteItem";
 import styles from "./QuoteList.module.css";
 
@@ -20,7 +21,10 @@ const QuoteList = (props) => {
 	const sortedQuotes = sortQuotes(props.quotes, isSortAsc);
 
 	const changeSortHandler = () => {
-		history.push("/quotes?sort=" + (isSortAsc ? "desc" : "asc"));
+		history.push({
+			pathname: location.pathname,
+			search: `sort=${isSortAsc ? "desc" : "asc"}`,
+		});
 	};
 
 	return (

@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import QuoteDetail from "../../pages/QuoteDetail";
-import classes from "./QuoteItem.module.css";
+
+import styles from "./QuoteItem.module.css";
 
 const QuoteItem = (props) => {
 	return (
-		<li className={classes.item}>
+		<li className={styles.item}>
 			<figure>
 				<blockquote>
 					<p>{props.text}</p>
