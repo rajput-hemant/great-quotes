@@ -1,13 +1,29 @@
 {
   "files": {
-    "main.css": "/great-quotes/static/css/main.a3927b02.css",
-    "main.js": "/great-quotes/static/js/main.9b00c544.js",
+    "main.css": "/great-quotes/static/css/main.9e039cdb.css",
+    "main.js": "/great-quotes/static/js/main.765a1092.js",
+    "static/css/241.f6ef1b22.chunk.css": "/great-quotes/static/css/241.f6ef1b22.chunk.css",
+    "static/js/241.9595a393.chunk.js": "/great-quotes/static/js/241.9595a393.chunk.js",
+    "static/js/805.36aa420c.chunk.js": "/great-quotes/static/js/805.36aa420c.chunk.js",
+    "static/css/815.a9eae17c.chunk.css": "/great-quotes/static/css/815.a9eae17c.chunk.css",
+    "static/js/815.e9445ac2.chunk.js": "/great-quotes/static/js/815.e9445ac2.chunk.js",
+    "static/css/682.1340f369.chunk.css": "/great-quotes/static/css/682.1340f369.chunk.css",
+    "static/js/682.ec18b91e.chunk.js": "/great-quotes/static/js/682.ec18b91e.chunk.js",
+    "static/js/954.3162e8ca.chunk.js": "/great-quotes/static/js/954.3162e8ca.chunk.js",
     "index.html": "/great-quotes/index.html",
-    "main.a3927b02.css.map": "/great-quotes/static/css/main.a3927b02.css.map",
-    "main.9b00c544.js.map": "/great-quotes/static/js/main.9b00c544.js.map"
+    "main.9e039cdb.css.map": "/great-quotes/static/css/main.9e039cdb.css.map",
+    "main.765a1092.js.map": "/great-quotes/static/js/main.765a1092.js.map",
+    "241.f6ef1b22.chunk.css.map": "/great-quotes/static/css/241.f6ef1b22.chunk.css.map",
+    "241.9595a393.chunk.js.map": "/great-quotes/static/js/241.9595a393.chunk.js.map",
+    "805.36aa420c.chunk.js.map": "/great-quotes/static/js/805.36aa420c.chunk.js.map",
+    "815.a9eae17c.chunk.css.map": "/great-quotes/static/css/815.a9eae17c.chunk.css.map",
+    "815.e9445ac2.chunk.js.map": "/great-quotes/static/js/815.e9445ac2.chunk.js.map",
+    "682.1340f369.chunk.css.map": "/great-quotes/static/css/682.1340f369.chunk.css.map",
+    "682.ec18b91e.chunk.js.map": "/great-quotes/static/js/682.ec18b91e.chunk.js.map",
+    "954.3162e8ca.chunk.js.map": "/great-quotes/static/js/954.3162e8ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3927b02.css",
-    "static/js/main.9b00c544.js"
+    "static/css/main.9e039cdb.css",
+    "static/js/main.765a1092.js"
   ]
 }
