@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/great-quotes/static/css/main.a3927b02.css",
+    "main.js": "/great-quotes/static/js/main.22f72439.js",
+    "index.html": "/great-quotes/index.html",
+    "main.a3927b02.css.map": "/great-quotes/static/css/main.a3927b02.css.map",
+    "main.22f72439.js.map": "/great-quotes/static/js/main.22f72439.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3927b02.css",
+    "static/js/main.22f72439.js"
+  ]
+}
